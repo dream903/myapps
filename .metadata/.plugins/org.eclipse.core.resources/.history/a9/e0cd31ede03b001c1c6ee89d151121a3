@@ -1,0 +1,10 @@
+package javaMailSender;
+
+public class sender {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

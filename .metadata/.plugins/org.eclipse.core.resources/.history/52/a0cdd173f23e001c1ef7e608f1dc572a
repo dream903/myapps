@@ -1,0 +1,19 @@
+package ws;
+
+import java.rmi.RemoteException;
+
+public class cltws {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+		BanqueService bs= new BanqueWSLocator().getBanqueServicePort();
+	
+		System.out.println(	bs.conversionEuroToDH(300));
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
+
+}

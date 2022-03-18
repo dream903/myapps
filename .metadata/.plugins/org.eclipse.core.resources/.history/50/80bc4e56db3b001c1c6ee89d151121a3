@@ -1,0 +1,11 @@
+package javaMailSender;
+
+import java.util.Properties;
+
+public class sendEmailWithAttachments {
+	String to ="";
+	final String from="";
+	final String password="";
+	Properties prop=new Properties();
+	prop.put("mail.smtp.host","smtp.gmail.com");
+}

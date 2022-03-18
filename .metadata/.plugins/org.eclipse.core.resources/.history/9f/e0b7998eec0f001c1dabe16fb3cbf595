@@ -1,0 +1,12 @@
+package org.ilh.entities;
+
+import javax.persistence.*;
+
+public class Customer {
+	
+	@Id
+	private String id;
+	private String name;
+	private String email;
+
+}

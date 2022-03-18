@@ -1,0 +1,29 @@
+package streamss;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+
+public class stream {
+
+	public static void main(String[] args)
+//	, Object[] testStrings)
+{
+//		Stream.of(9,8,7).forEach(System.out::println);
+//		
+		System.out.println(Stream.of(9,8,7).min(Integer::compareTo).get());
+//		
+//		System.out.println(Stream.of(9,8,7).mapToInt((x)->x).average().getAsDouble());
+//			
+//		System.out.println(Stream.of(9,8,7).anyMatch((x)->x>10));
+		System.out.println("hello");
+//		System.out.println(Stream.of(9,8,7));
+//		Arrays.sort(testStrings,(String s1,String s2)->{return(s1.length()-s2.length());}
+		
+//				);
+	
+	}
+	
+}

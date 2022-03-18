@@ -1,0 +1,22 @@
+
+public class SMSSenderClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String api key="apikey"+"NTIzNzRlNTczMDM4NzAzODZhNjY2NTU2NTg3ODU4Nzk";
+		String message="&message"+"";
+		String senfder=""+TXTCL";
+		String numbers="&numbers"+"+21651519852";
+		httpURLConnnection conn=(httpURLConnnection) new >URL().openConnection();
+		String data=apiKey+numbers+message;
+		conn.
+		conn.
+		conn.
+		conn.
+		conn.
+		BufferedReader rd=new BufferedReader(new InputStreamerREdader();
+		StringBuffer=
+
+	}
+
+}

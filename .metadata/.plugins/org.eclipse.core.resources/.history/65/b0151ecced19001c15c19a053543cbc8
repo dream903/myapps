@@ -1,0 +1,24 @@
+package j11;
+
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Stream;
+
+public class testfct {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(cube.apply(3));
+//			Stream.of(9,8,7).forEach(System.out::println)
+//			System.out.println(Stream.of("a","b","c").map((s) -> s.toUpperCase()));
+	
+//			list.stream()	        .map((@NotNull var s) -> s.toUpperCase());
+	List<String> people=List.of("john","Maria");
+	System.out.println(people.stream().map((s) -> s.repeat(2)));
+	System.out.println(Stream.of(9,8,7).sorted());
+    
+	List<String> people2=List.of("john","Maria");
+	System.out.println(people.stream().map((s) -> s.contains("j")));
+	}
+	static Function<Integer, Integer> cube  = (x) -> x * x * x;
+}

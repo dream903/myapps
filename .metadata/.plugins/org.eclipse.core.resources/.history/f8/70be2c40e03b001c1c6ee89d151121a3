@@ -1,0 +1,5 @@
+package javaMailSender;
+
+public class Sender {
+
+}
